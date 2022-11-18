@@ -1,0 +1,13 @@
+[user]
+	name = Daniel Wait
+	email = dw922@ic.ac.uk
+[core]
+	editor = vim
+[alias]
+        s = status
+        c = commit -m
+        p = push
+        a = add
+        aa = add --all
+        l = log
+        d = diff
