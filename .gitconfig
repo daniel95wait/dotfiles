@@ -11,3 +11,5 @@
         aa = add --all
         l = log
         d = diff
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
