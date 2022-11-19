@@ -10,6 +10,13 @@ let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
 
+" Copy/paste to system clipboard
+vnoremap <C-c> "*y :let @+=@*<CR>
+map <C-p> "+P
+
+" Show current command
+set showcmd
+
 "Split behavious
 set splitright
 set splitbelow
